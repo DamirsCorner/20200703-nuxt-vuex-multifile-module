@@ -1,7 +1,9 @@
 import { RootState } from './state'
 
-export const mutations = {
+const mutations = {
   increment(state: RootState) {
     state.count++
   }
 }
+
+export default mutations
